@@ -4925,27 +4925,27 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TFT_1.3"
+	(symbol "TFT_2.4"
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 9.652 0)
+			(at -13.716 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "240x240_1.3in_TFT"
-			(at 0 0 0)
+		(property "Value" "240x320_2.4in_TFT"
+			(at -5.334 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:1.3TFT"
+		(property "Footprint" "easyeda2kicad:2.4TFT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4972,10 +4972,60 @@
 				(hide yes)
 			)
 		)
-		(symbol "TFT_1.3_1_1"
+		(symbol "TFT_2.4_0_1"
+			(polyline
+				(pts
+					(xy -11.43 7.62) (xy -10.16 8.89) (xy -7.62 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.89) (xy 2.54 8.89) (xy 3.81 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 7.62) (xy 8.89 8.89) (xy 13.97 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 30.48 7.62) (xy 29.21 8.89) (xy 24.13 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TFT_2.4_1_1"
 			(rectangle
-				(start -13.97 8.89)
-				(end 13.97 0)
+				(start -13.97 11.43)
+				(end 40.64 0)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4984,10 +5034,26 @@
 					(type background)
 				)
 			)
+			(text "TOUCH"
+				(at -4.064 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "DISPLAY"
+				(at 18.796 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
 				(at -11.43 -2.54 90)
 				(length 2.54)
-				(name "GND"
+				(name "T_IRQ"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5005,7 +5071,7 @@
 			(pin input line
 				(at -7.62 -2.54 90)
 				(length 2.54)
-				(name "VCC"
+				(name "T_DO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5023,7 +5089,7 @@
 			(pin input line
 				(at -3.81 -2.54 90)
 				(length 2.54)
-				(name "SCL"
+				(name "T_DIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5041,7 +5107,7 @@
 			(pin input line
 				(at 0 -2.54 90)
 				(length 2.54)
-				(name "SDA"
+				(name "T_CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5059,7 +5125,7 @@
 			(pin input line
 				(at 3.81 -2.54 90)
 				(length 2.54)
-				(name "RES"
+				(name "T_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5077,7 +5143,7 @@
 			(pin input line
 				(at 7.62 -2.54 90)
 				(length 2.54)
-				(name "DC"
+				(name "SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5095,7 +5161,7 @@
 			(pin input line
 				(at 11.43 -2.54 90)
 				(length 2.54)
-				(name "BLK"
+				(name "LED"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5103,6 +5169,132 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -2.54 90)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 -2.54 90)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -2.54 90)
+				(length 2.54)
+				(name "DC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 26.67 -2.54 90)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 30.48 -2.54 90)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 34.29 -2.54 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 38.1 -2.54 90)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
