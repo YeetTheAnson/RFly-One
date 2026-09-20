@@ -13424,6 +13424,10 @@
 		(uuid "5548a19b-c895-4093-9743-852a7ee78157")
 	)
 	(no_connect
+		(at 102.87 312.42)
+		(uuid "5985cc5b-931e-4e63-ab12-e81a08120a60")
+	)
+	(no_connect
 		(at 36.83 201.93)
 		(uuid "5e86f805-87d6-4a17-83c2-db703d066d0d")
 	)
@@ -13522,6 +13526,10 @@
 	(no_connect
 		(at 191.77 59.69)
 		(uuid "a8cf06c9-d532-4598-b9bc-acc3aa604672")
+	)
+	(no_connect
+		(at 133.35 314.96)
+		(uuid "ae7f8b98-f3f0-466b-b4c4-4435f8103bc2")
 	)
 	(no_connect
 		(at 341.63 195.58)
@@ -18083,6 +18091,28 @@
 		)
 		(uuid "ffd64882-a479-495a-bd92-d277b63363c4")
 	)
+	(global_label "LORA_CE"
+		(shape input)
+		(at 102.87 317.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0161c151-9804-40e7-9396-8eef4bdbd5bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.781 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LORA_SCK"
 		(shape input)
 		(at 67.31 219.71 0)
@@ -18261,7 +18291,7 @@
 	)
 	(global_label "LCD_LED"
 		(shape input)
-		(at 182.88 330.2 0)
+		(at 133.35 335.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18271,7 +18301,7 @@
 		)
 		(uuid "16406407-78c1-419d-99bc-b1c31fadd4dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.848 330.2 0)
+			(at 144.318 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18501,28 +18531,6 @@
 			)
 		)
 	)
-	(global_label "PPS"
-		(shape input)
-		(at 182.88 344.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a036a43-deba-419c-9884-1f1b30bbc22e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6147 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GNSS_TX"
 		(shape input)
 		(at 300.99 195.58 180)
@@ -18569,7 +18577,7 @@
 	)
 	(global_label "LCD_CMD"
 		(shape input)
-		(at 182.88 320.04 0)
+		(at 133.35 299.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18579,7 +18587,7 @@
 		)
 		(uuid "34342545-1dc7-4e4c-9cb0-13c74612170e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.3923 320.04 0)
+			(at 144.8623 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18624,6 +18632,28 @@
 		(uuid "3559b88f-d4ec-417e-a8c9-220d26dd5fa7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.6038 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_RX"
+		(shape input)
+		(at 102.87 340.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36ac4fd8-2ee4-4a6b-be91-313dfe8eb56f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.4182 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18765,28 +18795,6 @@
 			)
 		)
 	)
-	(global_label "SDIO_CD"
-		(shape input)
-		(at 102.87 320.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40d6037f-1318-4272-85cd-72f26cbe66bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.9624 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BIAS_TEE_EN"
 		(shape input)
 		(at 46.99 35.56 0)
@@ -18875,28 +18883,6 @@
 			)
 		)
 	)
-	(global_label "SDIO_CMD"
-		(shape input)
-		(at 102.87 330.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c399606-3515-4a58-b434-8f17b36a75a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.511 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RP_ESP32_RX"
 		(shape input)
 		(at 157.48 334.01 0)
@@ -18981,6 +18967,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_CLK"
+		(shape input)
+		(at 102.87 330.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52ef88de-5312-4396-a38a-899844ba0acd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.9343 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19130,6 +19138,28 @@
 		(uuid "5d9f0110-3f86-4cee-afb9-6426abeee2db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.5348 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PPS"
+		(shape input)
+		(at 102.87 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fdc797d-cbed-402d-a0ca-7230f600f13b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.1353 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,28 +19411,6 @@
 			)
 		)
 	)
-	(global_label "LORA_CE"
-		(shape input)
-		(at 102.87 314.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "705c39b6-a837-476f-bbc7-f5f75963a1d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.781 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO_CD"
 		(shape input)
 		(at 337.82 147.32 270)
@@ -19491,28 +19499,6 @@
 			)
 		)
 	)
-	(global_label "SDIO_DAT0"
-		(shape input)
-		(at 102.87 325.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79d07fa6-52fc-4edd-b35e-9759d720626b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9667 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SYSTEM"
 		(shape input)
 		(at 246.38 314.96 180)
@@ -19553,6 +19539,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_DAT2"
+		(shape input)
+		(at 102.87 335.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c80975a-0795-4378-8e64-62f0717e1df0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9667 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19647,7 +19655,7 @@
 	)
 	(global_label "LCD_MOSI"
 		(shape input)
-		(at 182.88 322.58 0)
+		(at 133.35 340.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19657,7 +19665,7 @@
 		)
 		(uuid "82e45d54-5fb3-4076-b0ce-f4f37dd91e92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.9971 322.58 0)
+			(at 145.4671 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +19677,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 157.48 303.53 0)
+		(at 133.35 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19679,7 +19687,7 @@
 		)
 		(uuid "84687141-ac35-4aaf-9034-6e0db54e1d55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.0333 303.53 0)
+			(at 139.8428 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,6 +19759,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_DAT0"
+		(shape input)
+		(at 102.87 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cf6b8c2-3f16-40b4-8686-6bda8c1eb008")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9667 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19845,7 +19875,7 @@
 	)
 	(global_label "LCD_SCK"
 		(shape input)
-		(at 182.88 327.66 0)
+		(at 133.35 337.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19855,7 +19885,7 @@
 		)
 		(uuid "976dd5ae-4731-4a46-921c-31e30c7f3ce9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1504 327.66 0)
+			(at 144.6204 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20063,9 +20093,9 @@
 			)
 		)
 	)
-	(global_label "SDIO_CLK"
+	(global_label "SDIO_CMD"
 		(shape input)
-		(at 102.87 327.66 180)
+		(at 102.87 332.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20073,9 +20103,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a59fec0c-9579-4f1f-bd08-c738140b511f")
+		(uuid "a6cd426d-a3fe-4608-8d88-afc4c96b7270")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.9343 327.66 0)
+			(at 90.511 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20107,9 +20137,31 @@
 			)
 		)
 	)
+	(global_label "SDIO_CD"
+		(shape input)
+		(at 102.87 322.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aabd5f77-05ad-4ccb-8383-965889c0f22c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9624 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TOUCH_CS"
 		(shape input)
-		(at 182.88 332.74 0)
+		(at 133.35 330.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20119,7 +20171,7 @@
 		)
 		(uuid "abc7ff0d-e9f4-45a8-b845-7aca42ddc670")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.5414 332.74 0)
+			(at 146.0114 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20195,28 +20247,6 @@
 			)
 		)
 	)
-	(global_label "LORA_SCK"
-		(shape input)
-		(at 102.87 312.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2b0b84e-9c99-458f-bd99-152706333e76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.4505 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PG"
 		(shape input)
 		(at 250.19 295.91 180)
@@ -20241,7 +20271,7 @@
 	)
 	(global_label "LCD_CS"
 		(shape input)
-		(at 182.88 317.5 0)
+		(at 133.35 302.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20251,34 +20281,12 @@
 		)
 		(uuid "b5011b1e-4e98-4c00-aa20-e03b85a58ed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.8804 317.5 0)
+			(at 143.3504 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDIO_DAT1"
-		(shape input)
-		(at 102.87 322.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b675b3d9-2a5c-4623-b3b8-86246f910b90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9667 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20305,28 +20313,6 @@
 			)
 		)
 	)
-	(global_label "SDIO_DAT2"
-		(shape input)
-		(at 102.87 335.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6c9e11d-d3f1-45cc-882a-79d66f704175")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9667 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDIO_DAT0"
 		(shape input)
 		(at 326.39 115.57 180)
@@ -20340,6 +20326,28 @@
 		(uuid "b701a057-a6b2-47bf-a0ca-8eb4c01386eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 313.4867 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_DAT1"
+		(shape input)
+		(at 102.87 325.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7fea194-e5db-49d3-9595-c0583a3e5ac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9667 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20437,6 +20445,28 @@
 			)
 		)
 	)
+	(global_label "LORA_BUSY"
+		(shape input)
+		(at 102.87 320.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c03a2527-c45b-4a01-a0dc-0d6a3f66bb11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.3014 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTMGR_ESP32_RX"
 		(shape input)
 		(at 382.27 124.46 0)
@@ -20521,28 +20551,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GNSS_TX"
-		(shape input)
-		(at 182.88 341.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c503fa1b-cf02-4baf-a8b2-c6b4cfe0febd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0294 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20657,50 +20665,6 @@
 			)
 		)
 	)
-	(global_label "SDIO_DAT3"
-		(shape input)
-		(at 102.87 332.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf0f1db9-f6e6-49e7-9e75-f042e9dec7bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9667 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LORA_BUSY"
-		(shape input)
-		(at 102.87 317.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0abdeb9-9865-4cce-be66-0786bfb03e89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3014 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LCD_LED"
 		(shape input)
 		(at 168.91 245.11 270)
@@ -20769,7 +20733,7 @@
 	)
 	(global_label "TOUCH_IRQ"
 		(shape input)
-		(at 182.88 335.28 0)
+		(at 133.35 327.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20779,12 +20743,34 @@
 		)
 		(uuid "d3002006-b3e7-45c8-b584-24478aa44583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.2672 335.28 0)
+			(at 146.7372 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_DAT3"
+		(shape input)
+		(at 102.87 337.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4951e37-c07c-439e-98ff-7a102387ab4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9667 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20967,7 +20953,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 157.48 306.07 0)
+		(at 133.35 322.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20977,7 +20963,7 @@
 		)
 		(uuid "df3cb200-69fc-4e0a-ad5e-21391d77ba8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.9728 306.07 0)
+			(at 139.9033 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21141,6 +21127,28 @@
 			)
 		)
 	)
+	(global_label "GNSS_TX"
+		(shape input)
+		(at 102.87 342.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0f79dc0-ab71-44c7-a274-b53f1c29d075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7206 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RSSI"
 		(shape input)
 		(at 408.94 321.31 0)
@@ -21176,6 +21184,28 @@
 		(uuid "f4ed0a7a-b63d-40d1-9f30-9a316f29a222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.0477 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LORA_SCK"
+		(shape input)
+		(at 102.87 314.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f519fe8f-8a41-4671-9241-f5c8cfa3ecc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.4505 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21283,7 @@
 	)
 	(global_label "LCD_MISO"
 		(shape input)
-		(at 182.88 325.12 0)
+		(at 133.35 332.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21263,7 +21293,7 @@
 		)
 		(uuid "fcf3dd97-e658-4946-9cd2-226476932f05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.9971 325.12 0)
+			(at 145.4671 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21313,28 +21343,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GNSS_RX"
-		(shape input)
-		(at 182.88 339.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff86345e-1f6b-471d-b479-bae31b6cdf16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.3318 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -24271,7 +24279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FTC201610S"
+		(property "Footprint" "easyeda2kicad:L_Changjiang_FTC201610S"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -26169,7 +26177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 246.38 143.51 0)
 			(effects
 				(font
@@ -27206,7 +27214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 100.33 304.8 0)
 			(effects
 				(font
@@ -29380,7 +29388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 438.15 270.51 0)
 			(effects
 				(font
@@ -30777,7 +30785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FTC201610S"
+		(property "Footprint" "easyeda2kicad:L_Changjiang_FTC201610S"
 			(at 387.35 81.28 0)
 			(effects
 				(font
@@ -31352,7 +31360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 86.36 309.88 0)
 			(effects
 				(font
@@ -33899,7 +33907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 358.14 311.15 0)
 			(effects
 				(font
@@ -35382,7 +35390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FTC201610S"
+		(property "Footprint" "easyeda2kicad:L_Changjiang_FTC201610S"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -38179,7 +38187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 445.77 279.4 0)
 			(effects
 				(font
@@ -39089,7 +39097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 358.14 308.61 0)
 			(effects
 				(font
@@ -39944,7 +39952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 436.88 284.48 0)
 			(effects
 				(font
@@ -40967,7 +40975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 438.15 274.32 0)
 			(effects
 				(font
@@ -41862,7 +41870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 440.69 270.51 0)
 			(effects
 				(font
@@ -43989,7 +43997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 273.05 314.96 0)
 			(effects
 				(font
