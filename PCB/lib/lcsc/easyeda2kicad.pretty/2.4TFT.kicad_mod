@@ -501,9 +501,9 @@
 		(uuid "cc7275e8-d12f-42c4-9e57-f86978547a2a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/lcsc/easyeda2kicad.3dshapes/2.4TFT.stp"
+	(model "${KIPRJMOD}/lib/lcsc/easyeda2kicad.3dshapes/2.4TFT.step"
 		(offset
-			(xyz 1.275 -35.5 7)
+			(xyz 1.275 -35.5 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
