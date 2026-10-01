@@ -1,4 +1,4 @@
-26283765896040465
+26287345789438341
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104258,6 +104258,13 @@ Through hole pin header THT 1x07 2.54mm single row
 14
 14
 easyeda2kicad
+Battery
+
+
+0
+2
+2
+easyeda2kicad
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 
 
@@ -104348,6 +104355,13 @@ MSOP-8_L3.0-W3.0-P0.65-LS4.9-BL
 0
 8
 8
+easyeda2kicad
+MountingHole
+
+
+0
+0
+0
 easyeda2kicad
 QFN-20_L3.0-W3.0-P0.40-TL-EP1.7
 

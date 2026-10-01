@@ -16237,6 +16237,16 @@
 	)
 	(wire
 		(pts
+			(xy 414.02 290.83) (xy 408.94 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9195a7fb-ce01-411e-9367-6697ae9fa12b")
+	)
+	(wire
+		(pts
 			(xy 224.79 299.72) (xy 224.79 304.8)
 		)
 		(stroke
@@ -21403,7 +21413,7 @@
 	)
 	(global_label "BIAS_TEE_EN"
 		(shape input)
-		(at 433.07 318.77 0)
+		(at 414.02 299.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21413,7 +21423,7 @@
 		)
 		(uuid "ecc977e7-4dd8-4b28-8e67-a2dfc8e10a85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.9084 318.77 0)
+			(at 428.8584 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34033,7 +34043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:Battery"
 			(at 182.88 150.876 90)
 			(effects
 				(font
@@ -42282,7 +42292,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 453.39 280.67 0)
+		(at 414.02 290.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -42290,7 +42300,7 @@
 		(dnp no)
 		(uuid "db9fd70c-5ffb-41aa-a2a0-5f4500e37b3a")
 		(property "Reference" "TP1"
-			(at 452.374 276.352 90)
+			(at 418.338 289.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42299,7 +42309,7 @@
 			)
 		)
 		(property "Value" "ADSB_CLK"
-			(at 454.152 276.352 90)
+			(at 418.338 291.592 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42308,7 +42318,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TestPoint"
-			(at 458.47 280.67 0)
+			(at 414.02 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42317,7 +42327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 458.47 280.67 0)
+			(at 414.02 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42326,7 +42336,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 453.39 280.67 0)
+			(at 414.02 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
