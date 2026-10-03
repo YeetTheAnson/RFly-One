@@ -23928,6 +23928,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2040"
+			(at 308.61 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "56"
 			(uuid "a45f18dd-6741-41cd-a054-b2cbe54a8bdd")
 		)
@@ -41883,6 +41892,15 @@
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, external antenna"
 			(at 91.44 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22356044"
+			(at 91.44 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,46 @@
+Category,Item Name,Description,Link,Vendor,Quantity,Total Price (USD)
+PCB Components,CL10A106MA8NRNC,10uF 0603 capacitor,https://www.lcsc.com/product-detail/C96446.html,LCSC,20,1.52
+PCB Components,AO3401A,P channel MOSFET,https://www.lcsc.com/product-detail/C15127.html,LCSC,5,0.51
+PCB Components,GRM1555C1H101JA01D,100pF 0402 capacitor,https://www.lcsc.com/product-detail/C77177.html,LCSC,50,0.55
+PCB Components,GJM1555C1H3R0BB01D,3pF 0402 capacitor,https://www.lcsc.com/product-detail/C88891.html,LCSC,50,0.86
+PCB Components,CC0402JRNPO9BN201,200pF 0402 capacitor,https://www.lcsc.com/product-detail/C325462.html,LCSC,50,0.45
+PCB Components,CC0402KRX7R9BB102,1nF 0402 capacitor,https://www.lcsc.com/product-detail/C106205.html,LCSC,100,0.23
+PCB Components,CC0402JRNPO9BN150,15pF 0402 capacitor,https://www.lcsc.com/product-detail/C106997.html,LCSC,100,0.20
+PCB Components,CL21A226MOQNNNE,22uF 0805 capacitor,https://www.lcsc.com/product-detail/C98190.html,LCSC,10,1.06
+PCB Components,RClamp3361P-ES,0.25pF DFN1006 TVS diode,https://www.lcsc.com/product-detail/C22464622.html,LCSC,5,0.60
+PCB Components,0402L020/6SR,200mA 0402 PTC Fuse,https://www.lcsc.com/product-detail/C53280164.html,LCSC,10,0.71
+PCB Components,LQW15CN77NJ10D,77nH 0402 inductor,https://www.lcsc.com/product-detail/C668466.html,LCSC,10,0.88
+PCB Components,LQG15HS10NJ02D,10nH 0402 inductor,https://www.lcsc.com/product-detail/C77103.html,LCSC,50,0.93
+PCB Components,RC0402FR-0727RL,27R 0402 resistor,https://www.lcsc.com/product-detail/C138021.html,LCSC,100,0.40
+PCB Components,RC0402FR-0745K3L,45.3k 0402 resistor,https://www.lcsc.com/product-detail/C137977.html,LCSC,100,0.17
+PCB Components,FRC0402F2701TS,2.7k 0402 resistor,https://www.lcsc.com/product-detail/C2909332.html,LCSC,100,0.19
+PCB Components,FRC0402F1600TS,160R 0402 resistor,https://www.lcsc.com/product-detail/C2933075.html,LCSC,100,0.18
+PCB Components,FRC0402F3300TS,330R 0402 resistor,https://www.lcsc.com/product-detail/C2930002.html,LCSC,100,0.22
+PCB Components,FRC0402F7322TS,73.2k 0402 resistor,https://www.lcsc.com/product-detail/C2998163.html,LCSC,100,0.19
+PCB Components,0402WGF7501TCE,7.5k 0402 resistor,https://www.lcsc.com/product-detail/C25918.html,LCSC,100,0.22
+PCB Components,ABM8-272-T3,12MHz 10pF 3225 crystal,https://www.lcsc.com/product-detail/C20625731.html,LCSC,1,0.63
+PCB Components,ATGM332D-5N31,GNSS module,https://www.lcsc.com/product-detail/C128659.html,LCSC,1,3.58
+PCB Components,BMI270,IMU,https://www.lcsc.com/product-detail/C2836813.html,LCSC,2,5.75
+PCB Components,BQ25606RGER,Battery charge controller,https://www.lcsc.com/product-detail/C374063.html,LCSC,1,1.64
+PCB Components,MMC5983MA,Magnetometer,https://www.lcsc.com/product-detail/C404329.html,LCSC,1,2.28
+PCB Components,RT9193-33GB,3.3V LDO regulator,https://www.lcsc.com/product-detail/C15651.html,LCSC,5,0.69
+PCB Components,TA0970A,1090MHz SAW filter,https://www.lcsc.com/product-detail/C7115531.html,LCSC,2,3.09
+PCB Components,TLV3201AIDBVR,Comparator,https://www.lcsc.com/product-detail/C105188.html,LCSC,1,0.98
+PCB Components,TPS61023DRLR,Boost converter,https://www.lcsc.com/product-detail/C919459.html,LCSC,5,1.24
+PCB Components,TPS7A0230PDBVR,ULC 3V LDO regulator,https://www.lcsc.com/product-detail/C3747031.html,LCSC,1,0.45
+PCB Components,TQP3M9036,LNA,https://www.lcsc.com/product-detail/C920261.html,LCSC,2,6.29
+PCB Components,TXU0202DTTR,Logic level translator,https://www.lcsc.com/product-detail/C18197534.html,LCSC,2,1.62
+PCB Components,W25Q128JVSIQ,128Mb 16MB NOR flash,https://www.lcsc.com/product-detail/C97521.html,LCSC,1,2.58
+PCB Components,ESP32-S3-MINI-1U-N4R2,Main processor,https://www.lcsc.com/product-detail/C22356044.html,LCSC,1,4.61
+PCB Components,RP2040,ADSB decoder coprocessor,https://www.lcsc.com/product-detail/C2040.html,LCSC,1,1.00
+PCB Components,LCSC Shipping,4PX,-,LCSC,1,4.71
+PCB,PCB,4 layer bare PCB,-,JLCPCB,1,8.00
+PCB,JLCPCB Shipping,E-POST,-,JLCPCB,1,5.78
+Parts,E80-900M2213S,LR2021 LoRA module,https://www.aliexpress.com/item/1005012863308600.html,AliExpress,1,8.69
+Parts,AD8313ARMZ,RF logarithmic power detector,https://www.aliexpress.com/item/1005009749065916.html,AliExpress,1,3.31
+Parts,AliExpress Shipping,AliExpress Shipping,-,AliExpress,1,5.79
+Parts,"2.4"" TFT LCD","2.4"" TFT LCD",https://shopee.com.my/TFT-Display-0.96-1.3-1.44-1.77-1.8-2.4-2.8-inch-IPS-7P-SPI-HD-65K-TFT-Full-Color-LCD-Module-ST7735-Drive-IC-80*160-For-Arduino-i.299149454.21474104300,Shopee,1,4.35
+Parts,UWB 700-2700MHz antenna large,For 1090MHz ADSB receiver,https://shopee.com.my/Gsm-3G-4G-LTE-5G-nb-iot-iot-Module-Signal-Enhancement-FPC-PCB-Built-in-Patch-Antenna-i.419312080.27871596372,Shopee,1,0.70
+Parts,UWB 700-2700MHz antenna small,For 900MHz LoRa transceiver,https://shopee.com.my/Gsm-3G-4G-LTE-5G-nb-iot-iot-Module-Signal-Enhancement-FPC-PCB-Built-in-Patch-Antenna-i.419312080.27871596373,Shopee,1,0.65
+Parts,2.4GHz antenna,For ESP32 WiFi/BT and LoRa,https://shopee.com.my/2.4g-5g-5.8g-Dual-Band-Antenna-Built-in-FPC-Soft-Board-Antenna-wifi-Bluetooth-PCB-Patch-ipex-Antenna-i.419312080.27171149912,Shopee,2,0.95
+Parts,Shopee Shipping,SPX Express,- ,Shopee,2,2.60

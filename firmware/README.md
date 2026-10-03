@@ -12,7 +12,7 @@
 - Test if SD card can be detected and accessed
 
 ### RP2040
-- Extract and output a clock signal from the PPM signal with manchester encoding
+- Extract and output a clock signal from ADSB PPM signal with manchester encoding
 - Relay serial data
 
 ### Ch32V003
