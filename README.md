@@ -9,8 +9,8 @@ The RFly One has a 2.4" TFT display to show nearby air traffic on an offline map
 
 ![image](assets/CaseRenderF.png)
 ![image](assets/CaseRenderB.png)
-<img src="assets/RenderF.png" width="300">
-<img src="assets/RenderB.png" width="300">
+<img src="assets/RenderF.png" height="400">
+<img src="assets/RenderB.png" height="400">
 
 ## Specifications
 
