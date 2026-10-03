@@ -36,11 +36,13 @@ PCB Components,RP2040,ADSB decoder coprocessor,https://www.lcsc.com/product-deta
 PCB Components,LCSC Shipping,4PX,-,LCSC,1,4.71
 PCB,PCB,4 layer bare PCB,-,JLCPCB,1,8.00
 PCB,JLCPCB Shipping,E-POST,-,JLCPCB,1,5.78
-Parts,E80-900M2213S,LR2021 LoRA module,https://www.aliexpress.com/item/1005012863308600.html,AliExpress,1,8.69
-Parts,AD8313ARMZ,RF logarithmic power detector,https://www.aliexpress.com/item/1005009749065916.html,AliExpress,1,3.31
-Parts,AliExpress Shipping,AliExpress Shipping,-,AliExpress,1,5.79
+PCB Components,E80-900M2213S,LR2021 LoRA module,https://www.aliexpress.com/item/1005012863308600.html,AliExpress,1,8.69
+PCB Components,AD8313ARMZ,RF logarithmic power detector,https://www.aliexpress.com/item/1005009749065916.html,AliExpress,1,3.31
+PCB Components,AliExpress Shipping,AliExpress Shipping,-,AliExpress,1,5.79
 Parts,"2.4"" TFT LCD","2.4"" TFT LCD",https://shopee.com.my/TFT-Display-0.96-1.3-1.44-1.77-1.8-2.4-2.8-inch-IPS-7P-SPI-HD-65K-TFT-Full-Color-LCD-Module-ST7735-Drive-IC-80*160-For-Arduino-i.299149454.21474104300,Shopee,1,4.35
 Parts,UWB 700-2700MHz antenna large,For 1090MHz ADSB receiver,https://shopee.com.my/Gsm-3G-4G-LTE-5G-nb-iot-iot-Module-Signal-Enhancement-FPC-PCB-Built-in-Patch-Antenna-i.419312080.27871596372,Shopee,1,0.70
 Parts,UWB 700-2700MHz antenna small,For 900MHz LoRa transceiver,https://shopee.com.my/Gsm-3G-4G-LTE-5G-nb-iot-iot-Module-Signal-Enhancement-FPC-PCB-Built-in-Patch-Antenna-i.419312080.27871596373,Shopee,1,0.65
 Parts,2.4GHz antenna,For ESP32 WiFi/BT and LoRa,https://shopee.com.my/2.4g-5g-5.8g-Dual-Band-Antenna-Built-in-FPC-Soft-Board-Antenna-wifi-Bluetooth-PCB-Patch-ipex-Antenna-i.419312080.27171149912,Shopee,2,0.95
 Parts,Shopee Shipping,SPX Express,- ,Shopee,2,2.60
+,,,,,,
+Grand Total,92.03,,,,,
